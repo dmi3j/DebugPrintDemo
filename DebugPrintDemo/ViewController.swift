@@ -12,7 +12,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressMe(_ sender: Any) {
+        someFunction(with: inputField.text!)
+    }
 
+    func someFunction(with input: String) {
+        print("Doing some super secret calculation...")
     }
 }
 
